@@ -1,0 +1,11 @@
+.desktop{
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    margin-top: 10px;
+    background-color: #fffefd ;
+    border-radius: 20px;
+    margin-left: 1%;
+    opacity: 0.2;
+    z-index: 1;
+}
