@@ -1,15 +1,14 @@
-.user_count{
-    display: grid;
+.user_count {
+  display: grid;
   place-items: center;
-    position: absolute;
-    height: 250px;
-    width: 250px;
-   right: 37px;
-   margin-top: 24px;
-   font-size: 50px;
- 
-   border-radius: 20px;
-  
-    background-color: white;
-}
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  right: 37px;
+  margin-top: 24px;
+  font-size: 50px;
 
+  border-radius: 20px;
+
+  background-color: white;
+}

@@ -1,0 +1,26 @@
+.dataDesktop {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  height: 900px;
+  width: 1570px;
+  right: 37px;
+  margin-top: 24px;
+  font-size: 50px;
+
+  border-radius: 20px;
+
+  background-color: white;
+}
+
+.dataDesktop table {
+  width: 1400px;
+}
+
+.sort-title {
+  display: flex;
+  flex-direction: row;
+}
+.input_search {
+  width: 250px;
+}
