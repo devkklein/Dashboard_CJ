@@ -14,6 +14,11 @@ function Login() {
   const navigate = useNavigate();
   const [errors, setErrors] = useState({});
 
+  const login = () => {
+    window.sessionStorage.setItem("isLoggedIn", true);
+    window.location.reload();
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
     setErrors(Validation(values));
@@ -27,7 +32,7 @@ function Login() {
         })
         .then((res) => {
           if (res.data === "Success") {
-            navigate("/home");
+            login();
           } else {
             alert("wrong username or password");
           }
